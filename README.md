@@ -2,9 +2,15 @@
 
 ## How to install ##
 
-Copy the fpdf folder from the downloaded package into the bundles folder.
+Fpdf bundle for Laravel, installable via the Artisan CLI:
 
-In application/bundles.php add:
+```php
+php artisan bundle:install Fpdf
+```
+
+Or you can manually copy the fpdf folder from the downloaded package into the bundles folder.
+
+Now you must auto-load the bundle in bundles.php
 
 ```php
 'fpdf' => array('auto' => true),
