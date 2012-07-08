@@ -4,18 +4,21 @@
 
 In application/bundles.php add:
 
+```php
 'fpdf' => array('auto' => true),
+```
 
 ## Basic example ##
 
 Here is a basic example on how to use the bundle:
 
-// --- Create an new instance of fpdf ---
+```php
 $pdf = new Fpdf();
 $pdf->AddPage();
 $pdf->SetFont('Arial','B',16);
 $pdf->Cell(40,10,'Hello World!');
 $pdf->Output();
+```
 
 ## FPDF ##
 
