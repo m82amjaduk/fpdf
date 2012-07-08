@@ -2,6 +2,8 @@
 
 ## How to install ##
 
+Copy the fpdf folder from downloaded package into the bundles folder.
+
 In application/bundles.php add:
 
 ```php
