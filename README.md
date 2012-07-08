@@ -1,4 +1,4 @@
-## FPDF Bundle for Laravel, by Mark van der Putten
+## FPDF Bundle for Laravel
 
 ## How to install ##
 
